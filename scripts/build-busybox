@@ -5,4 +5,4 @@ cd $(dirname $0)/..
 
 . scripts/build-common
 
-busybox_install ${CONFIG}/buildroot-config ${CONFIG}/busybox-dynamic.config ${DIST}
+busybox_install ${CONFIG}/buildroot-config-arm64 ${CONFIG}/busybox-dynamic.config ${DIST}
